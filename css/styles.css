@@ -1,0 +1,111 @@
+* {
+  font-family: "Merriweather", serif;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url(../images/logo.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.hero {
+  line-height: 2;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.hero-text {
+  color: #fff;
+  margin-top: 10px;
+}
+
+.about-img {
+  height: 300px;
+}
+
+@media (max-width: 768px) {
+  .about-img {
+    height: 200px;
+  }
+
+  .buttons {
+    align-items: center;
+  }
+}
+
+.icons {
+  height: 32px;
+  width: 32px;
+  color: #0a58ca;
+  margin-bottom: 16px;
+  padding: 6px;
+  background-color: #f2f2f2;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+  border: none !important;
+  background-color: #0a58ca;
+  color: #fff;
+}
+
+.nav-tabs {
+  border: none !important;
+}
+
+.work-img {
+  height: 300px;
+}
+
+.h-icons {
+  height: 50px !important;
+  width: 32px !important;
+  color: #fff;
+  padding: 6px;
+}
+
+.h-icons:hover {
+  color: #0a58ca;
+  transition: 0.5s;
+}
+
+.b-icons {
+  height: 32px;
+  width: 32px;
+  color: #0a58ca;
+  margin-bottom: 16px;
+  padding: 6px;
+}
+
+.b-icons:hover {
+  color: grey;
+  transition: 0.5s;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-icon {
+  font-size: 1.5rem;
+  margin-right: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .contact-info {
+    text-align: center;
+  }
+}
